@@ -1,0 +1,15 @@
+{
+    "name": "local_business_fetcher",
+    "version": "0.0.1",
+    "private": false,
+    "dependencies": {
+        "yelp": "0.1.1",
+        "csv": "0.2.9",
+        "async": "0.2.6"
+    },
+    "engines": {
+        "node": "0.8.x",
+        "npm": "1.1.x"
+    },
+    "license": "MIT"
+}

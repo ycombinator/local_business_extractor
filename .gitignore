@@ -1,0 +1,22 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+# Ignore the var directory because its contents are generated at runtime
+var/
+
+node_modules/
+
+pids
+logs
+results
+
+npm-debug.log
+
+*.DS_Store
+
