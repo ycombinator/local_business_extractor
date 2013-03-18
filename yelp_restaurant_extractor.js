@@ -1,10 +1,9 @@
-var fs = require('fs'),
-    yelpFetcher = require('./lib/yelp_fetcher'),
-    yelpCsvFormatter = require('./lib/yelp_csv_fetcher'),
+var yelpFetcher = require('./lib/yelp_fetcher'),
+    yelpCsvFormatter = require('./lib/yelp_csv_formatter'),
     fileWriter = require('./lib/file_writer')
 
 var writer = fileWriter.FileWriter({
-    file: __dirname + 'var/yelp.csv'
+    filename: __dirname + '/var/yelp.csv'
 })
     
 var formatter = yelpCsvFormatter.YelpCsvFormatter({
