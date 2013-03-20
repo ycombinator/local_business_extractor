@@ -1,3 +1,5 @@
+## Development Setup
+
 1) Install node.js
 
 2) Install dependencies of this project
@@ -6,4 +8,9 @@
 
 3) Run desired extractor (note that sensitive information will need to be passed in via environment variables)
     $ ENV_VAR_1=VALUE_1 ENV_VAR_2=VALUE_2 node <EXTRACTOR>.js
+
+### Unit Testing
+
+From the project root directory, run:
+    $ ./node_modules/mocha/bin/mocha --recursive
 
